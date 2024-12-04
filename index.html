@@ -1,43 +1,82 @@
-html
 <!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bram Krook</title>
+    <title>Imponerende Webpagina</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
             color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
             text-align: center;
-            padding: 50px;
         }
-        h1 {
-            color: #4682b4;
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
         }
-        .container {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
             padding: 20px;
-            max-width: 600px;
-            margin: auto;
         }
-        .footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #666;
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welkom op de pagina van Bram Krook 549451</h1>
-        <p>Dit is een voorbeeld van een eenvoudige, maar mooi aangeklede webpagina.</p>
-    </div>
-    <div class="footer">
-        &copy; 2024 Bram Krook
-    </div>
+
+<header>
+    <h1>Welkom op Mijn Imponerende Webpagina</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">Over Mij</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Dit is de startpagina van mijn geweldige website. Hier kun je alles vinden over mijn projecten, ideeën en meer!</p>
+</section>
+
+<section id="about">
+    <h2>Over Mij</h2>
+    <p>Ik ben een gepassioneerde student met een liefde voor webontwikkeling. Ik hou ervan om creatieve en indrukwekkende webpagina's te maken die opvallen.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Heb je vragen of wil je met me samenwerken? Neem dan gerust contact met me op via <a href="mailto:jeemail@example.com">jeemail@example.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mijn Webpagina. Alle rechten voorbehouden.</p>
+</footer>
+
 </body>
 </html>
